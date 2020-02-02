@@ -24,6 +24,8 @@ public class LoginTest {
 		dashboardPage.clickAddDeposit();
 		
 		Assert.assertTrue("success msg did not show", condition);
+		
+		driver.close();
 	}
 	
 
